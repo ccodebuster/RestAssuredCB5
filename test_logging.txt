@@ -1,0 +1,127 @@
+Request method:	GET
+Request URI:	https://dummy.restapiexample.com/api/v1/employee/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=2592000
+Content-Type: application/json
+Date: Sat, 23 Dec 2023 02:34:36 UTC
+Display: staticcontent_sol, orig_site_sol
+Response: 200
+Server: Apache
+Vary: Accept-Encoding,User-Agent,Origin
+X-Ezoic-Cdn: Hit ds;mm;632252fd2be761af922007303a8da2ed;2-133674-15;cba01d69-04cd-4e6c-6b60-bb862675b9e7
+X-Middleton-Display: staticcontent_sol, orig_site_sol
+X-Middleton-Response: 200
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Sol: orig
+Content-Length: 183
+
+{
+    "status": "success",
+    "data": {
+        "id": 2,
+        "employee_name": "Garrett Winters",
+        "employee_salary": 170750,
+        "employee_age": 63,
+        "profile_image": ""
+    },
+    "message": "Successfully! Record has been fetched."
+}
+Request method:	GET
+Request URI:	https://dummy.restapiexample.com/api/v1/employee/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=2592000
+Content-Type: application/json
+Date: Sat, 23 Dec 2023 02:34:37 UTC
+Display: staticcontent_sol, orig_site_sol
+Response: 200
+Server: Apache
+Vary: Accept-Encoding,User-Agent,Origin
+X-Ezoic-Cdn: Hit ds;mm;a5e7e871defdfc853ad0f0ceedab892e;2-133674-15;8c4b0d2e-e609-4a59-6d64-f49332e373a5
+X-Middleton-Display: staticcontent_sol, orig_site_sol
+X-Middleton-Response: 200
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Sol: orig
+Content-Length: 179
+
+{
+    "status": "success",
+    "data": {
+        "id": 1,
+        "employee_name": "Tiger Nixon",
+        "employee_salary": 320800,
+        "employee_age": 61,
+        "profile_image": ""
+    },
+    "message": "Successfully! Record has been fetched."
+}
+Request method:	POST
+Request URI:	https://dummy.restapiexample.com/api/v1/create
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "apitest",
+    "salary": "5000",
+    "age": "30"
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, private, max-age=86400
+Content-Type: application/json
+Date: Sat, 23 Dec 2023 02:34:38 GMT
+Display: staticcontent_sol, orig_site_sol
+Expires: Sun, 24 Dec 2023 02:34:38 GMT
+Response: 200
+Server: Apache
+Vary: Accept-Encoding,Origin
+X-Endurance-Cache-Level: 2
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol, orig_site_sol
+X-Middleton-Response: 200
+X-Nginx-Cache: WordPress
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Sol: orig
+Content-Length: 132
+
+{
+    "status": "success",
+    "data": {
+        "name": "apitest",
+        "salary": "5000",
+        "age": "30",
+        "id": 6346
+    },
+    "message": "Successfully! Record has been added."
+}
