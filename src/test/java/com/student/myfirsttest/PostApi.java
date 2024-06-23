@@ -21,7 +21,7 @@ public class PostApi {
     @Test
     public void createNewEmployee() {
 
-        given()
+        given().log().all()
                 .when()
                 .body("{\"name\":\"test\",\"salary\":\"123\",\"age\":\"23\"}")
                 .post("https://dummy.restapiexample.com/api/v1/create")

@@ -19,10 +19,10 @@ public class GetRestApi {
     @Test
     public void getAllEmployeesWay1() {
 
-        given()
+        given().log().all()
                 .when()
                 .get("https://dummy.restapiexample.com/api/v1/employees")
-                .then()
+                .then().log().all()
                 .statusCode(200);
     }
 
